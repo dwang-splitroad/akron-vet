@@ -52,8 +52,8 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square overflow-hidden rounded-2xl bg-secondary shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=600&fit=crop&crop=face"
-                alt="Happy golden retriever dog at the veterinary clinic"
+                src="/veterinarian-surgeon.png"
+                alt="Dr. Bill Howard performing surgery at Akron Vet Clinic"
                 className="h-full w-full object-cover"
               />
             </div>
