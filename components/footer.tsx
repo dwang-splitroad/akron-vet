@@ -10,7 +10,7 @@ const quickLinks = [
   },
   {
     label: "New Client Form",
-    href: "https://web.archive.org/web/20211204005746/http://akronvetclinic.com/wp-content/uploads/2019/12/AVCNewClientAcct.pdf",
+    href: "/AVCNewClientAcct.pdf",
     external: true,
   },
   {

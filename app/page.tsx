@@ -1,6 +1,7 @@
 import { Header } from "@/components/header"
 import { Notices } from "@/components/notices"
 import { Hero } from "@/components/hero"
+import { VetStoreCta } from "@/components/vet-store-cta"
 import { Services } from "@/components/services"
 import { About } from "@/components/about"
 import { ContactForm } from "@/components/contact-form"
@@ -13,6 +14,7 @@ export default function Home() {
       <Notices />
       <main className="flex-1">
         <Hero />
+        <VetStoreCta />
         <Services />
         <About />
         <ContactForm />

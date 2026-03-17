@@ -6,10 +6,44 @@ import './globals.css'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://akronvetclinic.com"
+
 export const metadata: Metadata = {
-  title: 'Akron Veterinary Clinic, Inc. | Caring for Your Pets',
-  description: 'Akron Veterinary Clinic provides compassionate veterinary care for dogs, cats, and other pets. Serving Akron and surrounding areas with quality animal healthcare.',
-  generator: 'v0.app',
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: 'Akron Veterinary Clinic | Akron, Indiana',
+    template: '%s | Akron Veterinary Clinic',
+  },
+  description: 'Dr. Bill Howard and his team provide compassionate veterinary care for small animals and exotic pets in Akron, Indiana. Call (574) 893-4028 to schedule a visit.',
+  keywords: [
+    'veterinarian Akron Indiana',
+    'vet clinic Akron IN',
+    'Dr Bill Howard vet',
+    'small animal vet Fulton County',
+    'spay neuter Akron Indiana',
+    'pet vaccinations Akron Indiana',
+    'exotic pet vet Indiana',
+    'veterinarian near Rochester Indiana',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: BASE_URL,
+    siteName: 'Akron Veterinary Clinic',
+    title: 'Akron Veterinary Clinic | Akron, Indiana',
+    description: 'Dr. Bill Howard and his team provide compassionate veterinary care for small animals and exotic pets in Akron, Indiana.',
+    images: [
+      {
+        url: '/veterinarian-surgeon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dr. Bill Howard performing surgery at Akron Vet Clinic',
+      },
+    ],
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
   icons: {
     icon: [
       {

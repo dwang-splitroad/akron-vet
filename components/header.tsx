@@ -22,7 +22,7 @@ const navItems = [
   },
   {
     label: "New Client Form",
-    href: "https://web.archive.org/web/20211204005746/http://akronvetclinic.com/wp-content/uploads/2019/12/AVCNewClientAcct.pdf",
+    href: "/AVCNewClientAcct.pdf",
     external: true,
     icon: FileText,
   },
@@ -56,7 +56,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Clock className="h-4 w-4" />
-            <span>Mon–Wed &amp; Fri: 8AM–5PM | Thu: 8AM–Noon | Sat: 8AM–1PM</span>
+            <span>Mon–Wed &amp; Fri: 8AM–5PM | Thu: Closed | Sat: 8AM–1PM</span>
           </div>
         </div>
       </div>

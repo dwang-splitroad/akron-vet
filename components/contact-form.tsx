@@ -76,7 +76,7 @@ export function ContactForm() {
               <CardContent>
                 <CardDescription className="space-y-1 text-base">
                   <p><span className="font-medium text-foreground">Monday – Wednesday:</span> 8:00 AM – 5:00 PM</p>
-                  <p><span className="font-medium text-foreground">Thursday:</span> 8:00 AM – Noon</p>
+                  <p><span className="font-medium text-foreground">Thursday:</span> Closed</p>
                   <p><span className="font-medium text-foreground">Friday:</span> 8:00 AM – 5:00 PM</p>
                   <p><span className="font-medium text-foreground">Saturday:</span> 8:00 AM – 1:00 PM</p>
                   <p><span className="font-medium text-foreground">Sunday:</span> Closed</p>
