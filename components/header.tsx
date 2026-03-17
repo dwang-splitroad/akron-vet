@@ -50,13 +50,13 @@ export function Header() {
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-4 px-4 py-2 text-sm sm:justify-between">
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4" />
-            <a href="tel:330-644-1178" className="hover:underline">
-              (330) 644-1178
+            <a href="tel:574-893-4028" className="hover:underline">
+              (574) 893-4028
             </a>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="h-4 w-4" />
-            <span>Mon-Fri: 8AM-6PM | Sat: 8AM-12PM</span>
+            <span>Mon–Wed &amp; Fri: 8AM–5PM | Thu: 8AM–Noon | Sat: 8AM–1PM</span>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ export function Header() {
               </nav>
               <div className="border-t border-border pt-4">
                 <p className="px-4 text-sm text-muted-foreground">
-                  Call us: <a href="tel:330-644-1178" className="font-medium text-primary hover:underline">(330) 644-1178</a>
+                  Call us: <a href="tel:574-893-4028" className="font-medium text-primary hover:underline">(574) 893-4028</a>
                 </p>
               </div>
             </div>

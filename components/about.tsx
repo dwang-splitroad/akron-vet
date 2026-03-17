@@ -1,12 +1,12 @@
 import { Check } from "lucide-react"
 
 const features = [
-  "Experienced, compassionate veterinarians",
-  "Modern diagnostic equipment",
-  "Convenient appointment scheduling",
+  "Dr. Bill Howard practicing since 1994",
+  "Small animals & select exotics welcome",
+  "Cold therapy laser treatment",
+  "Digital X-ray & in-house diagnostics",
   "Affordable payment options with CareCredit",
-  "Serving Akron families since 1970",
-  "Personalized care for every pet",
+  "Emergency call available for established clients",
 ]
 
 export function About() {
@@ -18,7 +18,7 @@ export function About() {
             <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=600&h=450&fit=crop"
-                alt="Veterinarian examining a cat"
+                alt="Veterinarian examining a pet"
                 className="h-full w-full object-cover"
               />
             </div>
@@ -33,13 +33,13 @@ export function About() {
 
           <div className="flex flex-col gap-6">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              About Akron Veterinary Clinic
+              Why Akron Vet Clinic?
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              For over 50 years, Akron Veterinary Clinic has been a trusted partner in pet healthcare for families throughout the Akron area. Our team of dedicated professionals combines years of experience with genuine love for animals.
+              Dr. Bill Howard has been practicing veterinary medicine since 1994. His practice focuses on small animals and some exotics. Dr. Howard and his team have served the people of Akron and surrounding towns for over a decade with a goal of providing excellent veterinary care in a compassionate, friendly, and relaxed atmosphere.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              We believe in building lasting relationships with our clients and their furry family members, providing personalized care that addresses each pet&apos;s unique needs.
+              While Akron Vet Clinic is not the least expensive clinic in the area, they are considered by many to be the most thorough vet practice around. Your pet&apos;s experience at our facility is our top priority.
             </p>
 
             <ul className="mt-4 grid gap-3 sm:grid-cols-2">

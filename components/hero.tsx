@@ -24,7 +24,7 @@ export function Hero() {
             <div className="flex items-center gap-2">
               <Heart className="h-5 w-5 text-primary" fill="currentColor" />
               <span className="text-sm font-medium uppercase tracking-wider text-primary">
-                Compassionate Pet Care Since 1970
+                Serving Akron, Indiana &amp; Surrounding Towns
               </span>
             </div>
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
@@ -32,13 +32,13 @@ export function Hero() {
               <span className="text-primary">Our Priority</span>
             </h1>
             <p className="max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              At Akron Veterinary Clinic, we treat every pet like family. Our experienced team provides comprehensive care with compassion and expertise for dogs, cats, and other beloved companions.
+              Dr. Bill Howard and his team have served the people of Akron and surrounding towns for over a decade. We provide excellent veterinary care in a compassionate, friendly, and relaxed atmosphere.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <Button asChild size="lg" className="gap-2">
-                <a href="tel:330-644-1178">
+                <a href="tel:574-893-4028">
                   <Phone className="h-4 w-4" />
-                  Call (330) 644-1178
+                  Call (574) 893-4028
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="gap-2">
@@ -64,8 +64,8 @@ export function Hero() {
                   <Heart className="h-6 w-6 text-primary" fill="currentColor" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-foreground">50+</p>
-                  <p className="text-sm text-muted-foreground">Years of Care</p>
+                  <p className="text-2xl font-bold text-foreground">Since&nbsp;&#8217;94</p>
+                  <p className="text-sm text-muted-foreground">Practicing Since 1994</p>
                 </div>
               </div>
             </div>

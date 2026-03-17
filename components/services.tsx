@@ -1,36 +1,51 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Stethoscope, Syringe, Scissors, HeartPulse, FlaskConical, Dog } from "lucide-react"
+import { Stethoscope, Syringe, Scissors, HeartPulse, FlaskConical, Zap, Baby, Shield, Microscope } from "lucide-react"
 
 const services = [
   {
-    icon: Stethoscope,
-    title: "Wellness Exams",
-    description: "Comprehensive health checkups to keep your pet healthy and catch issues early.",
+    icon: Syringe,
+    title: "Vaccines",
+    description: "Age-appropriate vaccinations to protect your pet and your family from preventable diseases.",
   },
   {
-    icon: Syringe,
-    title: "Vaccinations",
-    description: "Core and lifestyle vaccines to protect your pet from common diseases.",
+    icon: Scissors,
+    title: "Spay & Neuter",
+    description: "Prevention of unwanted litters and extension of your pet's life — sometimes even doubling their lifespan.",
+  },
+  {
+    icon: Baby,
+    title: "Prenatal & Caesarian",
+    description: "Expert care for expectant mothers and assisted delivery when needed.",
+  },
+  {
+    icon: Zap,
+    title: "Cold Therapy Laser",
+    description: "Non-invasive laser therapy to reduce pain, inflammation, and speed healing.",
+  },
+  {
+    icon: Stethoscope,
+    title: "General & Laser Surgery",
+    description: "From routine procedures to advanced soft tissue surgeries, performed with precision and care.",
+  },
+  {
+    icon: Microscope,
+    title: "Diagnostic Blood Analyses",
+    description: "Pre-surgical and sick-animal blood panels for accurate diagnoses and faster treatment plans.",
+  },
+  {
+    icon: FlaskConical,
+    title: "Digital X-ray",
+    description: "State-of-the-art digital radiography for clear, fast diagnostic imaging.",
   },
   {
     icon: HeartPulse,
     title: "Emergency Care",
-    description: "Urgent medical attention when your pet needs it most during clinic hours.",
+    description: "Dr. Howard is on emergency call for all established clients in good standing.",
   },
   {
-    icon: Scissors,
-    title: "Surgery",
-    description: "From spay/neuter to soft tissue surgeries performed with care and precision.",
-  },
-  {
-    icon: FlaskConical,
-    title: "Laboratory Services",
-    description: "In-house diagnostics for quick results and faster treatment plans.",
-  },
-  {
-    icon: Dog,
-    title: "Dental Care",
-    description: "Professional cleanings and dental treatments for healthier teeth and gums.",
+    icon: Shield,
+    title: "Euthanasia & Cremation",
+    description: "Compassionate end-of-life services to give your pet a peaceful, dignified farewell.",
   },
 ]
 
@@ -40,10 +55,10 @@ export function Services() {
       <div className="mx-auto max-w-6xl px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Our Services
+            Veterinary Services
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Comprehensive veterinary care for every stage of your pet&apos;s life
+            Akron Veterinary Clinic is a full-service small animal facility — including some exotics such as rats, rabbits, and pot belly pigs.
           </p>
         </div>
 

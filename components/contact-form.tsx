@@ -45,8 +45,7 @@ export function ContactForm() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  3128 S. Arlington Rd.<br />
-                  Akron, Ohio 44312
+                  Akron, Indiana
                 </CardDescription>
               </CardContent>
             </Card>
@@ -60,8 +59,8 @@ export function ContactForm() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  <a href="tel:330-644-1178" className="text-foreground hover:text-primary hover:underline">
-                    (330) 644-1178
+                  <a href="tel:574-893-4028" className="text-foreground hover:text-primary hover:underline">
+                    (574) 893-4028
                   </a>
                 </CardDescription>
               </CardContent>
@@ -76,8 +75,10 @@ export function ContactForm() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="space-y-1 text-base">
-                  <p><span className="font-medium text-foreground">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
-                  <p><span className="font-medium text-foreground">Saturday:</span> 8:00 AM - 12:00 PM</p>
+                  <p><span className="font-medium text-foreground">Monday – Wednesday:</span> 8:00 AM – 5:00 PM</p>
+                  <p><span className="font-medium text-foreground">Thursday:</span> 8:00 AM – Noon</p>
+                  <p><span className="font-medium text-foreground">Friday:</span> 8:00 AM – 5:00 PM</p>
+                  <p><span className="font-medium text-foreground">Saturday:</span> 8:00 AM – 1:00 PM</p>
                   <p><span className="font-medium text-foreground">Sunday:</span> Closed</p>
                 </CardDescription>
               </CardContent>

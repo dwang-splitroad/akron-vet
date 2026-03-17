@@ -42,7 +42,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-4 max-w-md text-muted-foreground">
-              Providing compassionate veterinary care for your beloved pets since 1970. Your pet&apos;s health and happiness is our mission.
+              Dr. Bill Howard and his team provide compassionate veterinary care for small animals and select exotics in Akron, Indiana and surrounding towns.
             </p>
           </div>
 
@@ -72,12 +72,12 @@ export function Footer() {
             <ul className="mt-4 flex flex-col gap-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
-                <span>3128 S. Arlington Rd.<br />Akron, Ohio 44312</span>
+                <span>Akron, Indiana</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
-                <a href="tel:330-644-1178" className="hover:text-primary hover:underline">
-                  (330) 644-1178
+                <a href="tel:574-893-4028" className="hover:text-primary hover:underline">
+                  (574) 893-4028
                 </a>
               </li>
             </ul>
