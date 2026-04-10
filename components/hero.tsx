@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-secondary to-background">
+    <section id="home" className="relative overflow-hidden bg-gradient-to-b from-secondary to-background">
       {/* Decorative paw prints */}
       <div className="pointer-events-none absolute inset-0 opacity-5">
         <svg className="absolute left-10 top-20 h-16 w-16 rotate-12 text-primary" viewBox="0 0 24 24" fill="currentColor">

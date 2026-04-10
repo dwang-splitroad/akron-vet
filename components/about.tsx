@@ -11,7 +11,7 @@ const features = [
 
 export function About() {
   return (
-    <section className="bg-secondary py-16 sm:py-24">
+    <section id="about" className="scroll-mt-20 bg-secondary py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative">
