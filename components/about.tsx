@@ -6,7 +6,7 @@ const features = [
   "Cold therapy laser treatment",
   "Digital X-ray & in-house diagnostics",
   "Affordable payment options with CareCredit",
-  "Emergency call available for established clients",
+  "Limited after-hours consults for established clients",
 ]
 
 export function About() {
@@ -36,7 +36,7 @@ export function About() {
               Why Akron Vet Clinic?
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Dr. Bill Howard has been practicing veterinary medicine since 1994. His practice focuses on small animals and some exotics. Dr. Howard and his team have served the people of Akron and surrounding towns for over a decade with a goal of providing excellent veterinary care in a compassionate, friendly, and relaxed atmosphere.
+              Dr. Bill Howard has been practicing veterinary medicine since 1994. His practice focuses on small animals and some exotics. Dr. Howard and his team have served the people of Akron and surrounding towns since 2006, with a goal of providing excellent veterinary care in a compassionate, friendly, and relaxed atmosphere.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               While Akron Vet Clinic is not the least expensive clinic in the area, they are considered by many to be the most thorough vet practice around. Your pet&apos;s experience at our facility is our top priority.
@@ -45,8 +45,8 @@ export function About() {
             <ul className="mt-4 grid gap-3 sm:grid-cols-2">
               {features.map((feature) => (
                 <li key={feature} className="flex items-start gap-2">
-                  <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-primary">
-                    <Check className="h-3 w-3 text-primary-foreground" />
+                  <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-green">
+                    <Check className="h-3 w-3 text-white" />
                   </div>
                   <span className="text-foreground">{feature}</span>
                 </li>

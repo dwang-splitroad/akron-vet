@@ -48,7 +48,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-foreground">Quick Links</h3>
+            <h3 className="font-semibold text-green">Quick Links</h3>
             <ul className="mt-4 flex flex-col gap-2">
               {quickLinks.map((link) => (
                 <li key={link.label}>
@@ -56,7 +56,7 @@ export function Footer() {
                     href={link.href}
                     target={link.external ? "_blank" : undefined}
                     rel={link.external ? "noopener noreferrer" : undefined}
-                    className="inline-flex items-center gap-1 text-muted-foreground transition-colors hover:text-primary"
+                    className="inline-flex items-center gap-1 text-muted-foreground transition-colors hover:text-green"
                   >
                     {link.label}
                     {link.external && <ExternalLink className="h-3 w-3" />}
@@ -68,15 +68,15 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold text-foreground">Contact</h3>
+            <h3 className="font-semibold text-green">Contact</h3>
             <ul className="mt-4 flex flex-col gap-3">
               <li className="flex items-start gap-2 text-muted-foreground">
-                <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
+                <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-green" />
                 <span>Akron, Indiana</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
-                <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
-                <a href="tel:574-893-4028" className="hover:text-primary hover:underline">
+                <Phone className="h-4 w-4 flex-shrink-0 text-green" />
+                <a href="tel:574-893-4028" className="hover:text-green hover:underline">
                   (574) 893-4028
                 </a>
               </li>

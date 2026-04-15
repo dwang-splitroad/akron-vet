@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { AlertTriangle, Bug, ExternalLink, X } from "lucide-react"
+import { AlertTriangle, Bug, ExternalLink, X, Phone } from "lucide-react"
 import Link from "next/link"
 
 export function Notices() {
@@ -43,23 +43,33 @@ export function Notices() {
         </div>
       )}
 
-      {/* Emergency Hours Update */}
+      {/* Emergency Resources — we do NOT offer emergency services */}
       {!emergencyDismissed && (
-        <div className="bg-red-50 border-b border-red-200">
+        <div className="bg-blue-50 border-b border-blue-200">
           <div className="mx-auto flex max-w-6xl items-start justify-between gap-4 px-4 py-3">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-red-600" />
-              <div className="text-sm text-red-900">
-                <span className="font-semibold">Emergency Hours Update:</span>
-                {" "}Emergency services are now available to{" "}
-                <span className="font-medium">current clients in good standing only</span>.
-                {" "}Dr. Howard and staff remain committed to providing the best care possible for your pets.
+              <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-blue-700" />
+              <div className="text-sm text-blue-900">
+                <span className="font-semibold">Emergency Services:</span>
+                {" "}Akron Vet Clinic does <span className="font-semibold">not</span> provide emergency walk-in services.
+                {" "}Dr. Howard does offer <span className="font-medium">limited after-hours phone consults for established clients</span>.
+                {" "}For emergencies, please contact one of our recommended emergency centers:
+                <span className="ml-1 inline-flex flex-wrap gap-x-4 gap-y-1">
+                  <span className="inline-flex items-center gap-1">
+                    <Phone className="h-3 w-3" />
+                    <strong>VCA Animal Emergency &amp; Referral Center</strong> — (574) 232-6280 — Mishawaka, IN
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <Phone className="h-3 w-3" />
+                    <strong>Animal Emergency &amp; Critical Care Center</strong> — (260) 248-4533 — Fort Wayne, IN
+                  </span>
+                </span>
               </div>
             </div>
             <button
               onClick={() => setEmergencyDismissed(true)}
-              aria-label="Dismiss emergency hours notice"
-              className="shrink-0 rounded p-0.5 text-red-600 hover:bg-red-100"
+              aria-label="Dismiss emergency resources notice"
+              className="shrink-0 rounded p-0.5 text-blue-700 hover:bg-blue-100"
             >
               <X className="h-4 w-4" />
             </button>
