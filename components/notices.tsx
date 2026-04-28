@@ -57,11 +57,11 @@ export function Notices() {
                 <span className="ml-1 inline-flex flex-wrap gap-x-4 gap-y-1">
                   <span className="inline-flex items-center gap-1">
                     <Phone className="h-3 w-3" />
-                    <strong>VCA Animal Emergency &amp; Referral Center</strong> — (574) 232-6280 — Mishawaka, IN
+                    <a href="https://www.nives24h.com/" target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-2 hover:text-blue-700"><strong>NIVES</strong></a> — (260) 426-1062 — Fort Wayne, IN
                   </span>
                   <span className="inline-flex items-center gap-1">
                     <Phone className="h-3 w-3" />
-                    <strong>Animal Emergency &amp; Critical Care Center</strong> — (260) 248-4533 — Fort Wayne, IN
+                    <a href="https://evcc.com/mishawaka" target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-2 hover:text-blue-700"><strong>Emergency Veterinary Care Centers</strong></a> — (574) 544-6200 — Mishawaka, IN
                   </span>
                 </span>
               </div>

@@ -70,10 +70,10 @@ export function ContactForm() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Akron, Indiana
+                  13438 East State Road 114<br />Akron, IN 46910
                 </CardDescription>
                 <a
-                  href="https://maps.google.com/?q=Akron+Veterinary+Clinic+Akron+Indiana"
+                  href="https://maps.google.com/?q=13438+East+State+Road+114+Akron+IN+46910"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-2 rounded-lg border-2 border-[oklch(0.52_0.18_145)] bg-[oklch(0.52_0.18_145)] px-4 py-2 text-sm font-bold text-white shadow-md transition-all hover:bg-[oklch(0.45_0.18_145)] hover:shadow-lg"

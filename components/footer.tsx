@@ -72,7 +72,7 @@ export function Footer() {
             <ul className="mt-4 flex flex-col gap-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-green" />
-                <span>Akron, Indiana</span>
+                <span>13438 East State Road 114<br />Akron, IN 46910</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-green" />
