@@ -15,10 +15,31 @@ export function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsLoading(true)
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    setIsLoading(false)
-    setIsSubmitted(true)
+
+    const form = e.currentTarget
+    const data = {
+      firstName: (form.elements.namedItem("firstName") as HTMLInputElement).value,
+      lastName: (form.elements.namedItem("lastName") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
+      petName: (form.elements.namedItem("petName") as HTMLInputElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+    }
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+
+      if (!res.ok) throw new Error("Server error")
+      setIsSubmitted(true)
+    } catch {
+      alert("Something went wrong. Please try again or call us directly at (574) 893-4028.")
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   return (
