@@ -19,6 +19,11 @@ const quickLinks = [
     external: true,
   },
   {
+    label: "Financing",
+    href: "/financing",
+    external: false,
+  },
+  {
     label: "Contact Us",
     href: "#contact",
     external: false,

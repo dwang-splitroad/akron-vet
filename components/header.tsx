@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, Phone, Clock, ExternalLink, FileText } from "lucide-react"
+import { Menu, Phone, Clock, ExternalLink, FileText, CreditCard } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -113,6 +113,15 @@ export function Header() {
             <ExternalLink className="h-3 w-3 opacity-75" />
           </Link>
 
+          {/* Financing / Payment Options button */}
+          <Link
+            href="/financing"
+            className="flex items-center gap-2 rounded-lg border-2 border-primary bg-white px-4 py-2.5 text-sm font-bold text-primary shadow-md transition-all hover:shadow-lg hover:scale-105 hover:bg-primary/5"
+          >
+            <CreditCard className="h-4 w-4" />
+            Financing
+          </Link>
+
           {/* Contact / Appointments button */}
           <Link
             href="#contact"
@@ -194,6 +203,17 @@ export function Header() {
                     <FileText className="h-5 w-5" />
                     New Client Form
                     <ExternalLink className="ml-auto h-4 w-4 opacity-75" />
+                  </Link>
+                </SheetClose>
+
+                {/* Financing / Payment Options */}
+                <SheetClose asChild>
+                  <Link
+                    href="/financing"
+                    className="flex items-center gap-3 rounded-lg border-2 border-primary bg-white px-4 py-3 font-bold text-primary shadow-sm hover:shadow-md"
+                  >
+                    <CreditCard className="h-5 w-5" />
+                    Financing
                   </Link>
                 </SheetClose>
 
