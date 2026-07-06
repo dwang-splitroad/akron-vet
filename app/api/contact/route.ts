@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     const { firstName, lastName, email, phone, petName, message } = await req.json()
 
     await sgMail.send({
-      to: "tbone@akronvetclinic.com",
+      to: "info@akronvetclinic.com",
       from: "office@akronvetclinic.com",
       replyTo: email,
       subject: `Website Contact: ${firstName} ${lastName}`,
